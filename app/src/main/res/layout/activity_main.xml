@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FB7998"
+        android:gravity="center"
+        android:text="Play tic tac toe 5"
+        android:textColor="#E91E63"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Tap to Play"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF2D6B"/>
+
+</LinearLayout>
